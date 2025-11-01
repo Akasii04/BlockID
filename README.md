@@ -28,53 +28,6 @@ CSS: Controls visual design, animations, and responsiveness
 
 JavaScript: Adds dynamic functionality and interactive animations
 
-System Architecture & Logic Flow
-┌─────────────────┐
-│   Page Load     │
-└─────────────────┘
-         ↓
-┌─────────────────┐
-│ Initialize      │
-│ - Particle Anim │
-│ - Default Page  │
-└─────────────────┘
-         ↓
-┌─────────────────┐
-│ Navigation      │
-│ - Page Transitions│
-│ - Animations    │
-└─────────────────┘
-         ↓
-┌─────────────────┐
-│ User Actions    │
-├─────────────────┤
-│ • Click Plan    │
-│   → Highlights  │
-│   → Card Anim   │
-├─────────────────┤
-│ • Click FAQ     │
-│   → Expands     │
-│   → Answer      │
-└─────────────────┘
-         ↓
-┌─────────────────┐
-│ Background      │
-│ - Continuous    │
-│   Particle Anim │
-│ - Mouse React   │
-└─────────────────┘
-
-Project Structure
-
-digital-identity-platform/
-├── index.html          # Main application entry point
-├── css/
-│   └── style.css       # All styling and responsive design
-├── js/
-│   └── script.js       # Interactive functionality and animations
-└── assets/
-    └── images/         # Icons and visual assets
-
 
 Security Features
 Decentralized Storage: No single point of failure
